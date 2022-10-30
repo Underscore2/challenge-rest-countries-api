@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+$DarkElements: hsl(209, 23%, 22%);
+$DarkBackground: hsl(207, 26%, 17%);
+$LightInput: hsl(0, 0%, 52%);
+$DarkText: hsl(0, 0%, 98%);
+
+$LightElements: hsl(0, 0%, 100%);
+$LightBackground: hsl(0, 0%, 98%);
+$LightText: hsl(200, 15%, 8%);
+
+@mixin nunito($size) {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: $size;
+}
+
+@mixin placeholder($hexadecimal) {
+    &::-webkit-input-placeholder {
+        color:$hexadecimal;
+       opacity:1;
+        
+    }
+    
+    &::-moz-placeholder {
+        color:$hexadecimal;
+       opacity:1;
+        
+
+    }
+    
+    &::-ms-placeholder {
+        color:$hexadecimal;
+        opacity: 1;
+        
+
+    }
+    
+    &::placeholder {
+        color:$hexadecimal;
+       opacity:1;
+        
+
+
+    }
+}

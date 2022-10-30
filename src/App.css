@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+.btn-darkmode {
+  border: none;
+}
+
+.card-style {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+.card-style:hover {
+  cursor: pointer;
+}
+
+.image-style {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.search-style-dark {
+  border-radius: 5px;
+  color: white;
+}
+.search-style-dark:focus-within {
+  border: 1px solid white;
+}
+
+.search-style-light {
+  border-radius: 5px;
+}
+.search-style-light:focus-within {
+  border: 1px solid hsl(0deg, 0%, 52%);
+}
+
+.filter-style {
+  border: none;
+}
+.filter-style:hover {
+  cursor: pointer;
+}
+
+.input-search-style-dark {
+  border: none;
+}
+.input-search-style-dark::-webkit-input-placeholder {
+  color: hsl(0deg, 0%, 52%);
+  opacity: 1;
+}
+.input-search-style-dark::-moz-placeholder {
+  color: hsl(0deg, 0%, 52%);
+  opacity: 1;
+}
+.input-search-style-dark::-ms-placeholder {
+  color: hsl(0deg, 0%, 52%);
+  opacity: 1;
+}
+.input-search-style-dark::placeholder {
+  color: hsl(0deg, 0%, 52%);
+  opacity: 1;
+}
+
+.input-search-style-light {
+  border: none;
+}
+.input-search-style-light::-webkit-input-placeholder {
+  color: hsl(0deg, 0%, 98%);
+  opacity: 1;
+}
+.input-search-style-light::-moz-placeholder {
+  color: hsl(0deg, 0%, 98%);
+  opacity: 1;
+}
+.input-search-style-light::-ms-placeholder {
+  color: hsl(0deg, 0%, 98%);
+  opacity: 1;
+}
+.input-search-style-light::placeholder {
+  color: hsl(0deg, 0%, 98%);
+  opacity: 1;
+}
+
+.nunito-300 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+.nunito-600 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+.nunito-800 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.vh-10 {
+  height: 10vh;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-min {
+  width: min-content;
+}
+
+.min-90 {
+  min-height: 90vh;
+}
+
+/* * {
+  outline: 1px solid red;
+}  */
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.border-none {
+  border: none;
+}
+
+.dark-background {
+  background-color: hsl(207deg, 26%, 17%);
+}
+
+.dark-elements {
+  background-color: hsl(209deg, 23%, 22%);
+}
+
+.light-input {
+  color: hsl(0deg, 0%, 52%);
+}
+
+.dark-text {
+  color: hsl(0deg, 0%, 98%);
+}
+
+.light-background {
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+.light-text {
+  color: hsl(200deg, 15%, 8%);
+}
+
+.light-elements {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.prova {
+  object-fit: contain;
+  max-width: 450px;
+}
+
+/*# sourceMappingURL=App.css.map */

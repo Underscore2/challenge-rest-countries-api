@@ -1,0 +1,14 @@
+.card-style{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.image-style{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
